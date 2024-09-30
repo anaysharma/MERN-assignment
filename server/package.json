@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "npx nodemon server.js"
+    "start": "node ./api/index.js",
+    "dev": "npx nodemon ./api/index.js"
   },
   "author": "anay",
   "license": "ISC",
